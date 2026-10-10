@@ -1,0 +1,21 @@
+name: rnaseq-ola
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - sra-tools
+  - entrez-direct
+  - fastqc
+  - multiqc
+  - salmon
+  - gffread
+  - ncbi-datasets-cli
+  - pip
+  - pip:
+      - pydeseq2
+      - pandas
+      - numpy
+      - matplotlib
+      - seaborn
+      - gseapy

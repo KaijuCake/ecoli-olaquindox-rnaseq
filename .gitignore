@@ -1,0 +1,25 @@
+# Large data - download via runbook, not committed
+data/fastq/
+*.fastq
+*.fastq.gz
+*.sra
+reference/salmon_index/
+reference/*.zip
+reference/ncbi_dataset/
+reference/*.fna
+reference/transcripts.fasta
+
+# Generated results (recreated by running the pipeline)
+results/
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Conda / editors
+.conda/
+.vscode/
+.DS_Store
